@@ -4,6 +4,10 @@ async function makeFetchtoBackEndToGetData() {
     return json
   }
   
+
+
+
+  
   async function addSomeElementsToThePage() {
     const listOfMovies = await makeFetchtoBackEndToGetData()
     return listOfMovies
@@ -39,8 +43,8 @@ let idTracker = 0
 
 
 async function main() {
-    await makeFetchtoBackEndToGetData()
-    const listOfMovies = await addSomeElementsToThePage()
+    // await makeFetchtoBackEndToGetData()
+    const listOfMovies = await makeFetchtoBackEndToGetData()
     await displayAllMovies(listOfMovies)
     // await viewDataInMovieList(listOfMovies)
     // console.log(listOfMovies)

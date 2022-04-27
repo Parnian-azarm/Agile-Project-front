@@ -1,0 +1,51 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+main {
+    display: flex;
+    flex-direction: column;
+    
+}
+div#0 {
+    display:flex;
+}
+p {
+    width: 100%;
+    justify-content: center;
+}
+#display_movies {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#logo{
+    max-height: 300px;
+    max-width: 774.3px;
+}
+
+footer {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+  }
+
+
+  
+  footer p {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: var(--grey);
+    align-self: center;
+  }
