@@ -4,6 +4,10 @@ body {
     background-color: #ffdfd3;
     height: 100vh;
 }
+h1{
+  text-align: center;
+}
+
 .container{
     display: flex;
     justify-content: center;
