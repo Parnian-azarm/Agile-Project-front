@@ -27,7 +27,7 @@ function displayAllMovies(listOfMovies){
             if ( object === 'title' ) {
                 noSpecialCharacters = numberOfMovies.title.replace(/[^a-zA-Z0-9 ]/g, '')
                 titleTag.textContent = numberOfMovies.title
-                imgTag.src = 'img/' + noSpecialCharacters + '.jfif'
+                imgTag.src = 'img/' + noSpecialCharacters + '.jpg'
                 movieDiv.append(titleTag)
                 movieDiv.append(imgTag)
             }
