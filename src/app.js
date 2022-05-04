@@ -23,7 +23,6 @@ function displayAllMovies(listOfMovies){
         idTracker = idTracker + 1
         for (let object in numberOfMovies) {
             movieDiv.append(button)
-            console.log(object)
             if ( object === 'title' ) {
                 noSpecialCharacters = numberOfMovies.title.replace(/[^a-zA-Z0-9 ]/g, '')
                 titleTag.textContent = numberOfMovies.title
